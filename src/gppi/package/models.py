@@ -89,6 +89,8 @@ class FileField (models.FileField, ) :
     attr_class = FieldFile
 
 
+settings.MEDIA_ROOT_RELEASE = getattr(settings, "MEDIA_ROOT_RELEASE", "./release", )
+
 class Release (BasePackage, ) :
     objects = ReleaseManager()
 
