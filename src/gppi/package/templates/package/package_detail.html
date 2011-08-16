@@ -1,0 +1,6 @@
+{% extends "package/_base.html" %}
+
+{% block content %}
+<a href="{{request.current_host}}{{release.content.url}}"
+    >{{release.content.basename}}</a>
+{% endblock %}

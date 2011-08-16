@@ -1,0 +1,1647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object pk="cccadedcc1e511e088550026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Development Status :: 1 - Planning</field>
+    </object>
+    <object pk="cccbaf68c1e511e08b930026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Development Status :: 2 - Pre-Alpha</field>
+    </object>
+    <object pk="cccbbacac1e511e0b0c50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Development Status :: 3 - Alpha</field>
+    </object>
+    <object pk="cccbc585c1e511e097140026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Development Status :: 4 - Beta</field>
+    </object>
+    <object pk="cccbd038c1e511e087380026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Development Status :: 5 - Production/Stable</field>
+    </object>
+    <object pk="cccbdb02c1e511e08da60026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Development Status :: 6 - Mature</field>
+    </object>
+    <object pk="cccbe5b5c1e511e0b2ba0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Development Status :: 7 - Inactive</field>
+    </object>
+    <object pk="cccbf0ccc1e511e09e7f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: Console</field>
+    </object>
+    <object pk="cccbfb97c1e511e0bbdf0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: Console :: Curses</field>
+    </object>
+    <object pk="cccc065cc1e511e091630026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: Console :: Framebuffer</field>
+    </object>
+    <object pk="cccc1111c1e511e08d810026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: Console :: Newt</field>
+    </object>
+    <object pk="cccc1bc5c1e511e0a2360026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: Console :: svgalib</field>
+    </object>
+    <object pk="cccc2699c1e511e0a1c20026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: Handhelds/PDA's</field>
+    </object>
+    <object pk="cccc315ec1e511e08c530026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: MacOS X</field>
+    </object>
+    <object pk="cccc3c6ec1e511e090fc0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: MacOS X :: Aqua</field>
+    </object>
+    <object pk="cccc47aec1e511e0b67e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: MacOS X :: Carbon</field>
+    </object>
+    <object pk="cccc52b0c1e511e09c3a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: MacOS X :: Cocoa</field>
+    </object>
+    <object pk="cccc5d70c1e511e08ffc0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: No Input/Output (Daemon)</field>
+    </object>
+    <object pk="cccc682ec1e511e0b4180026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: Other Environment</field>
+    </object>
+    <object pk="cccc72ebc1e511e0828f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: Plugins</field>
+    </object>
+    <object pk="cccc7e17c1e511e08a840026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: Web Environment</field>
+    </object>
+    <object pk="cccc894fc1e511e090bc0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: Web Environment :: Buffet</field>
+    </object>
+    <object pk="cccc940ac1e511e0b03e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: Web Environment :: Mozilla</field>
+    </object>
+    <object pk="cccc9ed4c1e511e0a4ee0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: Web Environment :: ToscaWidgets</field>
+    </object>
+    <object pk="cccca991c1e511e08a500026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: Win32 (MS Windows)</field>
+    </object>
+    <object pk="ccccb49ec1e511e0a6910026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: X11 Applications</field>
+    </object>
+    <object pk="ccccbf70c1e511e0bfb00026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: X11 Applications :: Gnome</field>
+    </object>
+    <object pk="cccccad9c1e511e0a89e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: X11 Applications :: GTK</field>
+    </object>
+    <object pk="ccccd5fac1e511e096a80026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: X11 Applications :: KDE</field>
+    </object>
+    <object pk="cccce0ccc1e511e0b1360026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Environment :: X11 Applications :: Qt</field>
+    </object>
+    <object pk="cccceb82c1e511e090be0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: BFG</field>
+    </object>
+    <object pk="ccccf685c1e511e0aaf50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: Buildout</field>
+    </object>
+    <object pk="cccd0145c1e511e08bd40026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: Buildout :: Extension</field>
+    </object>
+    <object pk="cccd0c5cc1e511e0b38d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: Buildout :: Recipe</field>
+    </object>
+    <object pk="cccd174cc1e511e09f560026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: Chandler</field>
+    </object>
+    <object pk="cccd228cc1e511e0b4af0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: CubicWeb</field>
+    </object>
+    <object pk="cccd2d5ec1e511e089cf0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: Django</field>
+    </object>
+    <object pk="cccd3823c1e511e0be880026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: IDLE</field>
+    </object>
+    <object pk="cccd42eec1e511e087800026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: Paste</field>
+    </object>
+    <object pk="cccd4da1c1e511e0a2e80026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: Plone</field>
+    </object>
+    <object pk="cccd5861c1e511e0b93b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: Pylons</field>
+    </object>
+    <object pk="cccd63d1c1e511e0afb60026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: Setuptools Plugin</field>
+    </object>
+    <object pk="cccd6e8fc1e511e0afa70026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: Trac</field>
+    </object>
+    <object pk="cccd7975c1e511e099350026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: TurboGears</field>
+    </object>
+    <object pk="cccd8451c1e511e0924d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: TurboGears :: Applications</field>
+    </object>
+    <object pk="cccd8f23c1e511e0a1040026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: TurboGears :: Widgets</field>
+    </object>
+    <object pk="cccd99f5c1e511e08e880026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: Twisted</field>
+    </object>
+    <object pk="cccda4b3c1e511e09f050026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: ZODB</field>
+    </object>
+    <object pk="cccdafe8c1e511e09d5c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: Zope2</field>
+    </object>
+    <object pk="cccdbaa8c1e511e0900f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: Zope3</field>
+    </object>
+    <object pk="cccdc566c1e511e096f40026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Intended Audience :: Customer Service</field>
+    </object>
+    <object pk="cccdd019c1e511e0abb60026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Intended Audience :: Developers</field>
+    </object>
+    <object pk="cccddb0ac1e511e08d270026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Intended Audience :: Education</field>
+    </object>
+    <object pk="cccde5d1c1e511e0bb2e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Intended Audience :: End Users/Desktop</field>
+    </object>
+    <object pk="cccdf107c1e511e0815f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Intended Audience :: Financial and Insurance Industry</field>
+    </object>
+    <object pk="cccdfbc7c1e511e0a5bb0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Intended Audience :: Healthcare Industry</field>
+    </object>
+    <object pk="ccce0738c1e511e081350026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Intended Audience :: Information Technology</field>
+    </object>
+    <object pk="ccce1214c1e511e08abd0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Intended Audience :: Legal Industry</field>
+    </object>
+    <object pk="ccce1ce6c1e511e081f30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Intended Audience :: Manufacturing</field>
+    </object>
+    <object pk="ccce27aec1e511e0b0fc0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Intended Audience :: Other Audience</field>
+    </object>
+    <object pk="ccce3280c1e511e088f50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Intended Audience :: Religion</field>
+    </object>
+    <object pk="ccce3d47c1e511e0a0ce0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Intended Audience :: Science/Research</field>
+    </object>
+    <object pk="ccce484ac1e511e0ba370026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Intended Audience :: System Administrators</field>
+    </object>
+    <object pk="ccce530ac1e511e095640026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Intended Audience :: Telecommunications Industry</field>
+    </object>
+    <object pk="ccce5dd1c1e511e0a68c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: Aladdin Free Public License (AFPL)</field>
+    </object>
+    <object pk="ccce6899c1e511e0b9060026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: DFSG approved</field>
+    </object>
+    <object pk="ccce7357c1e511e097750026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: Eiffel Forum License (EFL)</field>
+    </object>
+    <object pk="ccce7e0cc1e511e0b9e00026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: Free For Educational Use</field>
+    </object>
+    <object pk="ccce8973c1e511e0b3450026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: Free For Home Use</field>
+    </object>
+    <object pk="ccce943ac1e511e08c670026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: Free for non-commercial use</field>
+    </object>
+    <object pk="ccce9f54c1e511e095080026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: Freely Distributable</field>
+    </object>
+    <object pk="ccceaa38c1e511e0af350026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: Free To Use But Restricted</field>
+    </object>
+    <object pk="ccceb4f8c1e511e096220026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: Freeware</field>
+    </object>
+    <object pk="cccebfb5c1e511e0b9c00026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: Netscape Public License (NPL)</field>
+    </object>
+    <object pk="ccceca75c1e511e0b6450026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: Nokia Open Source License (NOKOS)</field>
+    </object>
+    <object pk="ccced58cc1e511e0a30b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved</field>
+    </object>
+    <object pk="cccee07ac1e511e0bb100026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Academic Free License (AFL)</field>
+    </object>
+    <object pk="ccceeb2ec1e511e090970026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Apache Software License</field>
+    </object>
+    <object pk="cccef5f8c1e511e0b7aa0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Apple Public Source License</field>
+    </object>
+    <object pk="cccf010fc1e511e099a00026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Artistic License</field>
+    </object>
+    <object pk="cccf0c26c1e511e0925a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Attribution Assurance License</field>
+    </object>
+    <object pk="cccf1740c1e511e0bf6f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: BSD License</field>
+    </object>
+    <object pk="cccf221cc1e511e0a30c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Common Public License</field>
+    </object>
+    <object pk="cccf2d2bc1e511e098880026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Eiffel Forum License</field>
+    </object>
+    <object pk="cccf3842c1e511e0a7b50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: European Union Public Licence 1.0 (EUPL 1.0)</field>
+    </object>
+    <object pk="cccf431ec1e511e082390026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: European Union Public Licence 1.1 (EUPL 1.1)</field>
+    </object>
+    <object pk="cccf4e17c1e511e0b9cf0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: GNU Affero General Public License v3</field>
+    </object>
+    <object pk="cccf58f3c1e511e0bd9f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: GNU Free Documentation License (FDL)</field>
+    </object>
+    <object pk="cccf63b3c1e511e0baf20026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: GNU General Public License (GPL)</field>
+    </object>
+    <object pk="cccf6e7ac1e511e0b3f30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)</field>
+    </object>
+    <object pk="cccf798ac1e511e09ace0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: IBM Public License</field>
+    </object>
+    <object pk="cccf8466c1e511e0a8f10026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Intel Open Source License</field>
+    </object>
+    <object pk="cccf8f40c1e511e0ab5b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: ISC License (ISCL)</field>
+    </object>
+    <object pk="cccf99fdc1e511e099c30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Jabber Open Source License</field>
+    </object>
+    <object pk="cccfa4c7c1e511e086070026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: MIT License</field>
+    </object>
+    <object pk="cccfb019c1e511e080520026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: MITRE Collaborative Virtual Workspace License (CVW)</field>
+    </object>
+    <object pk="cccfbb0ac1e511e08d8d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Motosoto License</field>
+    </object>
+    <object pk="cccfc685c1e511e086680026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Mozilla Public License 1.0 (MPL)</field>
+    </object>
+    <object pk="cccfd14cc1e511e0992c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Mozilla Public License 1.1 (MPL 1.1)</field>
+    </object>
+    <object pk="cccfdc0cc1e511e0a33c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Nethack General Public License</field>
+    </object>
+    <object pk="cccfe6cac1e511e0b56e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Nokia Open Source License</field>
+    </object>
+    <object pk="cccff5a1c1e511e085120026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Open Group Test Suite License</field>
+    </object>
+    <object pk="ccd0007dc1e511e0a4b30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Python License (CNRI Python License)</field>
+    </object>
+    <object pk="ccd00b45c1e511e093ce0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Python Software Foundation License</field>
+    </object>
+    <object pk="ccd0165ec1e511e0bbc50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Qt Public License (QPL)</field>
+    </object>
+    <object pk="ccd021d1c1e511e0b6e20026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Ricoh Source Code Public License</field>
+    </object>
+    <object pk="ccd02caec1e511e080040026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Sleepycat License</field>
+    </object>
+    <object pk="ccd037c5c1e511e08c350026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Sun Industry Standards Source License (SISSL)</field>
+    </object>
+    <object pk="ccd04278c1e511e088630026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Sun Public License</field>
+    </object>
+    <object pk="ccd04d40c1e511e0acf30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: University of Illinois/NCSA Open Source License</field>
+    </object>
+    <object pk="ccd057fdc1e511e0b8c40026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Vovida Software License 1.0</field>
+    </object>
+    <object pk="ccd062c7c1e511e090120026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: W3C License</field>
+    </object>
+    <object pk="ccd06d99c1e511e0b16b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: X.Net License</field>
+    </object>
+    <object pk="ccd07891c1e511e0963a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: zlib/libpng License</field>
+    </object>
+    <object pk="ccd08378c1e511e0be860026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: OSI Approved :: Zope Public License</field>
+    </object>
+    <object pk="ccd08e40c1e511e0a5340026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: Other/Proprietary License</field>
+    </object>
+    <object pk="ccd0990ac1e511e0822b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: Public Domain</field>
+    </object>
+    <object pk="ccd0a417c1e511e087670026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">License :: Repoze Public License</field>
+    </object>
+    <object pk="ccd0aedec1e511e0a15a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Afrikaans</field>
+    </object>
+    <object pk="ccd0b9f5c1e511e0a1db0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Arabic</field>
+    </object>
+    <object pk="ccd0c50fc1e511e0a1400026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Bengali</field>
+    </object>
+    <object pk="ccd0cfccc1e511e082610026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Bosnian</field>
+    </object>
+    <object pk="ccd0dac7c1e511e0a4d60026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Bulgarian</field>
+    </object>
+    <object pk="ccd0e57ac1e511e096720026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Catalan</field>
+    </object>
+    <object pk="ccd0f040c1e511e0adeb0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Chinese (Simplified)</field>
+    </object>
+    <object pk="ccd0fb59c1e511e0a7240026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Chinese (Traditional)</field>
+    </object>
+    <object pk="ccd10635c1e511e0985a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Croatian</field>
+    </object>
+    <object pk="ccd11107c1e511e090990026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Czech</field>
+    </object>
+    <object pk="ccd11cabc1e511e089010026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Danish</field>
+    </object>
+    <object pk="ccd127cfc1e511e080cc0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Dutch</field>
+    </object>
+    <object pk="ccd132c7c1e511e0b5540026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: English</field>
+    </object>
+    <object pk="ccd13d8fc1e511e0ad6d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Esperanto</field>
+    </object>
+    <object pk="ccd14859c1e511e0b9480026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Finnish</field>
+    </object>
+    <object pk="ccd1530cc1e511e088880026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: French</field>
+    </object>
+    <object pk="ccd15dcac1e511e09bef0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: German</field>
+    </object>
+    <object pk="ccd16887c1e511e0915c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Greek</field>
+    </object>
+    <object pk="ccd17397c1e511e0b1370026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Hebrew</field>
+    </object>
+    <object pk="ccd17fbac1e511e0b26a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Hindi</field>
+    </object>
+    <object pk="ccd18ab5c1e511e096f30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Hungarian</field>
+    </object>
+    <object pk="ccd195d7c1e511e0b9e80026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Icelandic</field>
+    </object>
+    <object pk="ccd1a0a8c1e511e09f510026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Indonesian</field>
+    </object>
+    <object pk="ccd1ab85c1e511e0af020026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Italian</field>
+    </object>
+    <object pk="ccd1b694c1e511e0b4570026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Japanese</field>
+    </object>
+    <object pk="ccd1c199c1e511e0a2a80026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Javanese</field>
+    </object>
+    <object pk="ccd1cd59c1e511e0b7900026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Korean</field>
+    </object>
+    <object pk="ccd1d82bc1e511e0b6a60026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Latin</field>
+    </object>
+    <object pk="ccd1e2e8c1e511e0b1050026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Latvian</field>
+    </object>
+    <object pk="ccd1edb0c1e511e0b6570026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Macedonian</field>
+    </object>
+    <object pk="ccd1f8fac1e511e089cb0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Malay</field>
+    </object>
+    <object pk="ccd203c5c1e511e0aaab0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Marathi</field>
+    </object>
+    <object pk="ccd20e8cc1e511e09a8d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Norwegian</field>
+    </object>
+    <object pk="ccd219f3c1e511e0aab50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Panjabi</field>
+    </object>
+    <object pk="ccd225d4c1e511e0a67c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Persian</field>
+    </object>
+    <object pk="ccd230a6c1e511e0b6e80026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Polish</field>
+    </object>
+    <object pk="ccd23ba8c1e511e0a8830026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Portuguese</field>
+    </object>
+    <object pk="ccd2465ec1e511e0a3c40026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Portuguese (Brazilian)</field>
+    </object>
+    <object pk="ccd25161c1e511e0b73c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Romanian</field>
+    </object>
+    <object pk="ccd25c2bc1e511e0b6900026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Russian</field>
+    </object>
+    <object pk="ccd26754c1e511e0829e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Serbian</field>
+    </object>
+    <object pk="ccd27263c1e511e0a1860026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Slovak</field>
+    </object>
+    <object pk="ccd27d54c1e511e0adf30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Slovenian</field>
+    </object>
+    <object pk="ccd28807c1e511e084fc0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Spanish</field>
+    </object>
+    <object pk="ccd292e3c1e511e0ae0b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Swedish</field>
+    </object>
+    <object pk="ccd29dcac1e511e098f70026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Tamil</field>
+    </object>
+    <object pk="ccd2a887c1e511e080bd0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Telugu</field>
+    </object>
+    <object pk="ccd2b3bdc1e511e0a6f80026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Thai</field>
+    </object>
+    <object pk="ccd2becac1e511e0bf630026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Turkish</field>
+    </object>
+    <object pk="ccd2c9b0c1e511e08a830026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Ukranian</field>
+    </object>
+    <object pk="ccd2d47ac1e511e0a06d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Urdu</field>
+    </object>
+    <object pk="ccd2df75c1e511e092750026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Natural Language :: Vietnamese</field>
+    </object>
+    <object pk="ccd2ea51c1e511e08c7e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: BeOS</field>
+    </object>
+    <object pk="ccd2f568c1e511e0b9360026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: MacOS</field>
+    </object>
+    <object pk="ccd300bac1e511e0927a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: MacOS :: MacOS 9</field>
+    </object>
+    <object pk="ccd30bc0c1e511e0bce90026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: MacOS :: MacOS X</field>
+    </object>
+    <object pk="ccd31691c1e511e083910026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: Microsoft</field>
+    </object>
+    <object pk="ccd321d1c1e511e09cb50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: Microsoft :: MS-DOS</field>
+    </object>
+    <object pk="ccd32caec1e511e0bf4a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: Microsoft :: Windows</field>
+    </object>
+    <object pk="ccd33775c1e511e0b7910026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: Microsoft :: Windows :: Windows 3.1 or Earlier</field>
+    </object>
+    <object pk="ccd34282c1e511e0ad350026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: Microsoft :: Windows :: Windows 95/98/2000</field>
+    </object>
+    <object pk="ccd34e00c1e511e092950026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: Microsoft :: Windows :: Windows CE</field>
+    </object>
+    <object pk="ccd3592bc1e511e0b13b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: Microsoft :: Windows :: Windows NT/2000</field>
+    </object>
+    <object pk="ccd363f5c1e511e085f70026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: OS/2</field>
+    </object>
+    <object pk="ccd36eeec1e511e085150026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: OS Independent</field>
+    </object>
+    <object pk="ccd379abc1e511e097ff0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: Other OS</field>
+    </object>
+    <object pk="ccd384b0c1e511e0a5390026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: PalmOS</field>
+    </object>
+    <object pk="ccd38f6ec1e511e089900026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: PDA Systems</field>
+    </object>
+    <object pk="ccd39a85c1e511e082440026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: POSIX</field>
+    </object>
+    <object pk="ccd3a54fc1e511e0a9940026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: POSIX :: AIX</field>
+    </object>
+    <object pk="ccd3b033c1e511e085740026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: POSIX :: BSD</field>
+    </object>
+    <object pk="ccd3bb87c1e511e09f5b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: POSIX :: BSD :: BSD/OS</field>
+    </object>
+    <object pk="ccd3c659c1e511e0b6ca0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: POSIX :: BSD :: FreeBSD</field>
+    </object>
+    <object pk="ccd3d15ec1e511e0a6e90026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: POSIX :: BSD :: NetBSD</field>
+    </object>
+    <object pk="ccd3dc1cc1e511e085cf0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: POSIX :: BSD :: OpenBSD</field>
+    </object>
+    <object pk="ccd3e73dc1e511e0a4c70026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: POSIX :: GNU Hurd</field>
+    </object>
+    <object pk="ccd3f1fac1e511e090cb0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: POSIX :: HP-UX</field>
+    </object>
+    <object pk="ccd3fd9ec1e511e0b5ad0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: POSIX :: IRIX</field>
+    </object>
+    <object pk="ccd40851c1e511e093b40026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: POSIX :: Linux</field>
+    </object>
+    <object pk="ccd41345c1e511e080140026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: POSIX :: Other</field>
+    </object>
+    <object pk="ccd41f5ec1e511e0a7620026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: POSIX :: SCO</field>
+    </object>
+    <object pk="ccd42ad1c1e511e098e10026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: POSIX :: SunOS/Solaris</field>
+    </object>
+    <object pk="ccd435b8c1e511e0bec10026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Operating System :: Unix</field>
+    </object>
+    <object pk="ccd440c5c1e511e088310026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Ada</field>
+    </object>
+    <object pk="ccd44b97c1e511e0984d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: APL</field>
+    </object>
+    <object pk="ccd4569cc1e511e0ad990026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: ASP</field>
+    </object>
+    <object pk="ccd4616ec1e511e09d2a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Assembly</field>
+    </object>
+    <object pk="ccd46c2bc1e511e0b5a60026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Awk</field>
+    </object>
+    <object pk="ccd47711c1e511e08d300026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Basic</field>
+    </object>
+    <object pk="ccd481d1c1e511e0bd5d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: C</field>
+    </object>
+    <object pk="ccd48d05c1e511e08b470026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: C#</field>
+    </object>
+    <object pk="ccd49811c1e511e0bb570026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: C++</field>
+    </object>
+    <object pk="ccd4a2fac1e511e092660026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Cold Fusion</field>
+    </object>
+    <object pk="ccd4ade1c1e511e0a7840026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Cython</field>
+    </object>
+    <object pk="ccd4b8b3c1e511e081810026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Delphi/Kylix</field>
+    </object>
+    <object pk="ccd4c3dec1e511e0a01e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Dylan</field>
+    </object>
+    <object pk="ccd4cf00c1e511e0828a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Eiffel</field>
+    </object>
+    <object pk="ccd4d9abc1e511e08edb0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Emacs-Lisp</field>
+    </object>
+    <object pk="ccd4e470c1e511e084e50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Erlang</field>
+    </object>
+    <object pk="ccd4ef4cc1e511e096390026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Euler</field>
+    </object>
+    <object pk="ccd4fa02c1e511e0b2fa0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Euphoria</field>
+    </object>
+    <object pk="ccd50540c1e511e0aa840026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Forth</field>
+    </object>
+    <object pk="ccd51000c1e511e0af2a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Fortran</field>
+    </object>
+    <object pk="ccd51b17c1e511e08f200026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Haskell</field>
+    </object>
+    <object pk="ccd52626c1e511e0b2c50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Java</field>
+    </object>
+    <object pk="ccd53151c1e511e09bbc0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: JavaScript</field>
+    </object>
+    <object pk="ccd53c23c1e511e0bced0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Lisp</field>
+    </object>
+    <object pk="ccd54700c1e511e08bfd0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Logo</field>
+    </object>
+    <object pk="ccd554b5c1e511e0b44d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: ML</field>
+    </object>
+    <object pk="ccd55f9cc1e511e0a2c00026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Modula</field>
+    </object>
+    <object pk="ccd56a6ec1e511e0b5d30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Objective C</field>
+    </object>
+    <object pk="ccd57599c1e511e096fc0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Object Pascal</field>
+    </object>
+    <object pk="ccd580c5c1e511e0ac970026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: OCaml</field>
+    </object>
+    <object pk="ccd58b8fc1e511e0a8840026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Other</field>
+    </object>
+    <object pk="ccd59654c1e511e0a1c10026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Other Scripting Engines</field>
+    </object>
+    <object pk="ccd5a114c1e511e0b8660026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Pascal</field>
+    </object>
+    <object pk="ccd5abdcc1e511e0a05f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Perl</field>
+    </object>
+    <object pk="ccd5b69cc1e511e0908a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: PHP</field>
+    </object>
+    <object pk="ccd5c1bac1e511e0be630026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Pike</field>
+    </object>
+    <object pk="ccd5ccdcc1e511e085990026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Pliant</field>
+    </object>
+    <object pk="ccd5d7b8c1e511e084ae0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: PL/SQL</field>
+    </object>
+    <object pk="ccd5e278c1e511e0902d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: PROGRESS</field>
+    </object>
+    <object pk="ccd5ed7dc1e511e0b0060026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Prolog</field>
+    </object>
+    <object pk="ccd5f83ac1e511e0b5660026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Python</field>
+    </object>
+    <object pk="ccd60382c1e511e0b06b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Python :: 2</field>
+    </object>
+    <object pk="ccd60e9cc1e511e0a8530026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Python :: 2.3</field>
+    </object>
+    <object pk="ccd61982c1e511e0b03b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Python :: 2.4</field>
+    </object>
+    <object pk="ccd62499c1e511e0adb50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Python :: 2.5</field>
+    </object>
+    <object pk="ccd62fb3c1e511e0aafc0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Python :: 2.6</field>
+    </object>
+    <object pk="ccd63a6ec1e511e08d7c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Python :: 2.7</field>
+    </object>
+    <object pk="ccd64523c1e511e0b7530026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Python :: 3</field>
+    </object>
+    <object pk="ccd64fe1c1e511e0aca00026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Python :: 3.0</field>
+    </object>
+    <object pk="ccd65af0c1e511e0b98d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Python :: 3.1</field>
+    </object>
+    <object pk="ccd665aec1e511e0b0110026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Python :: 3.2</field>
+    </object>
+    <object pk="ccd67075c1e511e0ab2b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: REBOL</field>
+    </object>
+    <object pk="ccd67b35c1e511e084160026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Rexx</field>
+    </object>
+    <object pk="ccd685f3c1e511e093430026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Ruby</field>
+    </object>
+    <object pk="ccd690aec1e511e088a10026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Scheme</field>
+    </object>
+    <object pk="ccd69b63c1e511e082650026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Simula</field>
+    </object>
+    <object pk="ccd6a65cc1e511e0957d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Smalltalk</field>
+    </object>
+    <object pk="ccd6b18ac1e511e0ace10026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: SQL</field>
+    </object>
+    <object pk="ccd6bc47c1e511e0a4930026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Tcl</field>
+    </object>
+    <object pk="ccd6c754c1e511e0942e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Unix Shell</field>
+    </object>
+    <object pk="ccd6d3fdc1e511e0872b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Visual Basic</field>
+    </object>
+    <object pk="ccd6dec5c1e511e088a30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: XBasic</field>
+    </object>
+    <object pk="ccd6e9a1c1e511e0952a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: YACC</field>
+    </object>
+    <object pk="ccd6f4bac1e511e09e350026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Programming Language :: Zope</field>
+    </object>
+    <object pk="ccd70002c1e511e0afdc0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Adaptive Technologies</field>
+    </object>
+    <object pk="ccd70ad7c1e511e09a6e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Artistic Software</field>
+    </object>
+    <object pk="ccd7159ec1e511e0b7570026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications</field>
+    </object>
+    <object pk="ccd720a1c1e511e0b8240026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: BBS</field>
+    </object>
+    <object pk="ccd72bccc1e511e0afe10026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Chat</field>
+    </object>
+    <object pk="ccd73697c1e511e090780026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Chat :: AOL Instant Messenger</field>
+    </object>
+    <object pk="ccd7420ac1e511e0ad2f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Chat :: ICQ</field>
+    </object>
+    <object pk="ccd74d0ac1e511e09b960026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Chat :: Internet Relay Chat</field>
+    </object>
+    <object pk="ccd75b87c1e511e0b67b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Chat :: Unix Talk</field>
+    </object>
+    <object pk="ccd76651c1e511e0bc750026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Conferencing</field>
+    </object>
+    <object pk="ccd77138c1e511e0b2e60026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Email</field>
+    </object>
+    <object pk="ccd77beec1e511e0ac930026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Email :: Address Book</field>
+    </object>
+    <object pk="ccd786bdc1e511e0bbee0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Email :: Email Clients (MUA)</field>
+    </object>
+    <object pk="ccd791d7c1e511e0a3280026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Email :: Filters</field>
+    </object>
+    <object pk="ccd79d14c1e511e0ae3d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Email :: Mailing List Servers</field>
+    </object>
+    <object pk="ccd7a7d4c1e511e0a27f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Email :: Mail Transport Agents</field>
+    </object>
+    <object pk="ccd7b29cc1e511e0bd8d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Email :: Post-Office</field>
+    </object>
+    <object pk="ccd7bd63c1e511e08d6b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Email :: Post-Office :: IMAP</field>
+    </object>
+    <object pk="ccd7c870c1e511e095740026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Email :: Post-Office :: POP3</field>
+    </object>
+    <object pk="ccd7d330c1e511e0a0db0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Fax</field>
+    </object>
+    <object pk="ccd7ddf8c1e511e082160026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: FIDO</field>
+    </object>
+    <object pk="ccd7e8f3c1e511e096f80026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: File Sharing</field>
+    </object>
+    <object pk="ccd7f3f5c1e511e0b5210026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: File Sharing :: Gnutella</field>
+    </object>
+    <object pk="ccd7ff5cc1e511e0bdea0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: File Sharing :: Napster</field>
+    </object>
+    <object pk="ccd80a1cc1e511e09b6f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Ham Radio</field>
+    </object>
+    <object pk="ccd814cfc1e511e0974b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Internet Phone</field>
+    </object>
+    <object pk="ccd82019c1e511e0914a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Telephony</field>
+    </object>
+    <object pk="ccd82bf0c1e511e085c30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Communications :: Usenet News</field>
+    </object>
+    <object pk="ccd836aec1e511e0b0370026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Database</field>
+    </object>
+    <object pk="ccd84163c1e511e0993b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Database :: Database Engines/Servers</field>
+    </object>
+    <object pk="ccd84c0cc1e511e0aee10026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Database :: Front-Ends</field>
+    </object>
+    <object pk="ccd856cac1e511e08af20026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment</field>
+    </object>
+    <object pk="ccd8634ac1e511e083f30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: File Managers</field>
+    </object>
+    <object pk="ccd86e23c1e511e0894c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Gnome</field>
+    </object>
+    <object pk="ccd878d9c1e511e081490026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: GNUstep</field>
+    </object>
+    <object pk="ccd88405c1e511e0bdfc0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: K Desktop Environment (KDE)</field>
+    </object>
+    <object pk="ccd88ee1c1e511e09d100026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: K Desktop Environment (KDE) :: Themes</field>
+    </object>
+    <object pk="ccd89a0fc1e511e0952a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: PicoGUI</field>
+    </object>
+    <object pk="ccd8a4f3c1e511e082130026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: PicoGUI :: Applications</field>
+    </object>
+    <object pk="ccd8afbdc1e511e0b1bb0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: PicoGUI :: Themes</field>
+    </object>
+    <object pk="ccd8ba7ac1e511e090390026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Screen Savers</field>
+    </object>
+    <object pk="ccd8c5d9c1e511e08aa60026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers</field>
+    </object>
+    <object pk="ccd8d0f0c1e511e09c360026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Afterstep</field>
+    </object>
+    <object pk="ccd8dbf5c1e511e0a5150026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Afterstep :: Themes</field>
+    </object>
+    <object pk="ccd8e6bac1e511e095ef0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Applets</field>
+    </object>
+    <object pk="ccd8f17ac1e511e0a5470026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Blackbox</field>
+    </object>
+    <object pk="ccd8fd11c1e511e0b3a00026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Blackbox :: Themes</field>
+    </object>
+    <object pk="ccd907fac1e511e0a56a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: CTWM</field>
+    </object>
+    <object pk="ccd9131cc1e511e0a8c70026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: CTWM :: Themes</field>
+    </object>
+    <object pk="ccd91eabc1e511e082630026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Enlightenment</field>
+    </object>
+    <object pk="ccd92a0ac1e511e0a6cf0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Enlightenment :: Epplets</field>
+    </object>
+    <object pk="ccd934d1c1e511e0a5eb0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Enlightenment :: Themes DR15</field>
+    </object>
+    <object pk="ccd93ffdc1e511e0902c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Enlightenment :: Themes DR16</field>
+    </object>
+    <object pk="ccd94abdc1e511e093290026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Enlightenment :: Themes DR17</field>
+    </object>
+    <object pk="ccd9557ac1e511e0a4690026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Fluxbox</field>
+    </object>
+    <object pk="ccd96042c1e511e0bbae0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Fluxbox :: Themes</field>
+    </object>
+    <object pk="ccd96b59c1e511e0b7260026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: FVWM</field>
+    </object>
+    <object pk="ccd97617c1e511e086490026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: FVWM :: Themes</field>
+    </object>
+    <object pk="ccd980d7c1e511e09d400026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: IceWM</field>
+    </object>
+    <object pk="ccd98b94c1e511e095430026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: IceWM :: Themes</field>
+    </object>
+    <object pk="ccd99666c1e511e0a5dc0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: MetaCity</field>
+    </object>
+    <object pk="ccd9a123c1e511e0ba340026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: MetaCity :: Themes</field>
+    </object>
+    <object pk="ccd9abebc1e511e08cd50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Oroborus</field>
+    </object>
+    <object pk="ccd9b6e6c1e511e084d50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Oroborus :: Themes</field>
+    </object>
+    <object pk="ccd9c1fdc1e511e0b38f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Sawfish</field>
+    </object>
+    <object pk="ccd9ccd1c1e511e08dc60026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Sawfish :: Themes 0.30</field>
+    </object>
+    <object pk="ccd9d785c1e511e096110026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Sawfish :: Themes pre-0.30</field>
+    </object>
+    <object pk="ccd9e397c1e511e08fcb0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Waimea</field>
+    </object>
+    <object pk="ccd9ee5ec1e511e08a6e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Waimea :: Themes</field>
+    </object>
+    <object pk="ccd9f9a8c1e511e0a0790026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Window Maker</field>
+    </object>
+    <object pk="ccda04d4c1e511e0a6720026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Window Maker :: Applets</field>
+    </object>
+    <object pk="ccda0f9cc1e511e0a3390026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: Window Maker :: Themes</field>
+    </object>
+    <object pk="ccda1aa8c1e511e0ac520026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: XFCE</field>
+    </object>
+    <object pk="ccda25cac1e511e0999c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Desktop Environment :: Window Managers :: XFCE :: Themes</field>
+    </object>
+    <object pk="ccda3094c1e511e098a20026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Documentation</field>
+    </object>
+    <object pk="ccda3b51c1e511e0b73f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Education</field>
+    </object>
+    <object pk="ccda460fc1e511e0906f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Education :: Computer Aided Instruction (CAI)</field>
+    </object>
+    <object pk="ccda5114c1e511e0bc550026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Education :: Testing</field>
+    </object>
+    <object pk="ccda5c05c1e511e086620026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Games/Entertainment</field>
+    </object>
+    <object pk="ccda66c0c1e511e091f00026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Games/Entertainment :: Arcade</field>
+    </object>
+    <object pk="ccda71a8c1e511e0898e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Games/Entertainment :: Board Games</field>
+    </object>
+    <object pk="ccda7c70c1e511e0bf3d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Games/Entertainment :: First Person Shooters</field>
+    </object>
+    <object pk="ccda872ec1e511e0bbed0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Games/Entertainment :: Fortune Cookies</field>
+    </object>
+    <object pk="ccda91e1c1e511e0a4090026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Games/Entertainment :: Multi-User Dungeons (MUD)</field>
+    </object>
+    <object pk="ccda9cabc1e511e099000026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Games/Entertainment :: Puzzle Games</field>
+    </object>
+    <object pk="ccdaa7b8c1e511e0b83f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Games/Entertainment :: Real Time Strategy</field>
+    </object>
+    <object pk="ccdab29ec1e511e0bf3e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Games/Entertainment :: Role-Playing</field>
+    </object>
+    <object pk="ccdabdf0c1e511e093460026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Games/Entertainment :: Side-Scrolling/Arcade Games</field>
+    </object>
+    <object pk="ccdac8bac1e511e0a4630026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Games/Entertainment :: Simulation</field>
+    </object>
+    <object pk="ccdad378c1e511e08d3d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Games/Entertainment :: Turn Based Strategy</field>
+    </object>
+    <object pk="ccdade40c1e511e0a16f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Home Automation</field>
+    </object>
+    <object pk="ccdae8fdc1e511e0b74d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet</field>
+    </object>
+    <object pk="ccdaf497c1e511e0a3e60026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: File Transfer Protocol (FTP)</field>
+    </object>
+    <object pk="ccdaff54c1e511e098c90026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: Finger</field>
+    </object>
+    <object pk="ccdb0a14c1e511e0bc1a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: Log Analysis</field>
+    </object>
+    <object pk="ccdb150cc1e511e0bd6b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: Name Service (DNS)</field>
+    </object>
+    <object pk="ccdb2030c1e511e0b2650026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: Proxy Servers</field>
+    </object>
+    <object pk="ccdb2af5c1e511e086130026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WAP</field>
+    </object>
+    <object pk="ccdb3611c1e511e0a0b20026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WWW/HTTP</field>
+    </object>
+    <object pk="ccdb411ec1e511e0931a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WWW/HTTP :: Browsers</field>
+    </object>
+    <object pk="ccdb4c21c1e511e086370026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WWW/HTTP :: Dynamic Content</field>
+    </object>
+    <object pk="ccdb56e8c1e511e0bea40026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries</field>
+    </object>
+    <object pk="ccdb61bdc1e511e08d470026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WWW/HTTP :: Dynamic Content :: Message Boards</field>
+    </object>
+    <object pk="ccdb6c70c1e511e0bd160026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WWW/HTTP :: Dynamic Content :: News/Diary</field>
+    </object>
+    <object pk="ccdb7723c1e511e0b2b60026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WWW/HTTP :: Dynamic Content :: Page Counters</field>
+    </object>
+    <object pk="ccdb81ebc1e511e0bfad0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WWW/HTTP :: HTTP Servers</field>
+    </object>
+    <object pk="ccdb8d02c1e511e0b5f80026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WWW/HTTP :: Indexing/Search</field>
+    </object>
+    <object pk="ccdb97aec1e511e09e6a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WWW/HTTP :: Site Management</field>
+    </object>
+    <object pk="ccdba280c1e511e0bfac0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WWW/HTTP :: Site Management :: Link Checking</field>
+    </object>
+    <object pk="ccdbad3dc1e511e0a38c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WWW/HTTP :: WSGI</field>
+    </object>
+    <object pk="ccdbb857c1e511e0842d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WWW/HTTP :: WSGI :: Application</field>
+    </object>
+    <object pk="ccdbc314c1e511e080940026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware</field>
+    </object>
+    <object pk="ccdbce2bc1e511e08b710026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: WWW/HTTP :: WSGI :: Server</field>
+    </object>
+    <object pk="ccdbd926c1e511e09ba10026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Internet :: Z39.50</field>
+    </object>
+    <object pk="ccdbe3d9c1e511e0b1c30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia</field>
+    </object>
+    <object pk="ccdbef07c1e511e0a66d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Graphics</field>
+    </object>
+    <object pk="ccdbf9c5c1e511e087c30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Graphics :: 3D Modeling</field>
+    </object>
+    <object pk="ccdc048cc1e511e095360026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Graphics :: 3D Rendering</field>
+    </object>
+    <object pk="ccdc0fccc1e511e0a5a00026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Graphics :: Capture</field>
+    </object>
+    <object pk="ccdc1b33c1e511e095690026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Graphics :: Capture :: Digital Camera</field>
+    </object>
+    <object pk="ccdc27bdc1e511e0a0280026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Graphics :: Capture :: Scanners</field>
+    </object>
+    <object pk="ccdc32d7c1e511e089680026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Graphics :: Capture :: Screen Capture</field>
+    </object>
+    <object pk="ccdc3db3c1e511e0a5e30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Graphics :: Editors</field>
+    </object>
+    <object pk="ccdc486ec1e511e09eea0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Graphics :: Editors :: Raster-Based</field>
+    </object>
+    <object pk="ccdc5338c1e511e097320026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Graphics :: Editors :: Vector-Based</field>
+    </object>
+    <object pk="ccdc5e00c1e511e0b79c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Graphics :: Graphics Conversion</field>
+    </object>
+    <object pk="ccdc68b3c1e511e0a8b40026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Graphics :: Presentation</field>
+    </object>
+    <object pk="ccdc73aec1e511e098e90026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Graphics :: Viewers</field>
+    </object>
+    <object pk="ccdc7e75c1e511e09ed60026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Sound/Audio</field>
+    </object>
+    <object pk="ccdc897ac1e511e091360026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Sound/Audio :: Analysis</field>
+    </object>
+    <object pk="ccdc9480c1e511e0a59a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Sound/Audio :: Capture/Recording</field>
+    </object>
+    <object pk="ccdc9f51c1e511e094520026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Sound/Audio :: CD Audio</field>
+    </object>
+    <object pk="ccdcaa17c1e511e0ba340026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Sound/Audio :: CD Audio :: CD Playing</field>
+    </object>
+    <object pk="ccdcb526c1e511e091d90026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Sound/Audio :: CD Audio :: CD Ripping</field>
+    </object>
+    <object pk="ccdcbfeec1e511e0a6bb0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Sound/Audio :: CD Audio :: CD Writing</field>
+    </object>
+    <object pk="ccdccb19c1e511e0a22d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Sound/Audio :: Conversion</field>
+    </object>
+    <object pk="ccdcd5e1c1e511e0ac8f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Sound/Audio :: Editors</field>
+    </object>
+    <object pk="ccdce09ec1e511e099fa0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Sound/Audio :: MIDI</field>
+    </object>
+    <object pk="ccdcebaec1e511e0afb20026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Sound/Audio :: Mixers</field>
+    </object>
+    <object pk="ccdcf66bc1e511e0b2f20026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Sound/Audio :: Players</field>
+    </object>
+    <object pk="ccdd0128c1e511e0ad6f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Sound/Audio :: Players :: MP3</field>
+    </object>
+    <object pk="ccdd0c91c1e511e09e7f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Sound/Audio :: Sound Synthesis</field>
+    </object>
+    <object pk="ccdd185ec1e511e0977c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Sound/Audio :: Speech</field>
+    </object>
+    <object pk="ccdd232ec1e511e0b9ec0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Video</field>
+    </object>
+    <object pk="ccdd2e28c1e511e098e70026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Video :: Capture</field>
+    </object>
+    <object pk="ccdd38e8c1e511e08bbf0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Video :: Conversion</field>
+    </object>
+    <object pk="ccdd4433c1e511e0bd670026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Video :: Display</field>
+    </object>
+    <object pk="ccdd4ef8c1e511e09da50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Multimedia :: Video :: Non-Linear Editor</field>
+    </object>
+    <object pk="ccdd5a26c1e511e098140026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Office/Business</field>
+    </object>
+    <object pk="ccdd64eec1e511e092880026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Office/Business :: Financial</field>
+    </object>
+    <object pk="ccdd6fabc1e511e081300026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Office/Business :: Financial :: Accounting</field>
+    </object>
+    <object pk="ccdd7ae3c1e511e0b4d20026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Office/Business :: Financial :: Investment</field>
+    </object>
+    <object pk="ccdd8597c1e511e0be2a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Office/Business :: Financial :: Point-Of-Sale</field>
+    </object>
+    <object pk="ccdd9099c1e511e0a07f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Office/Business :: Financial :: Spreadsheet</field>
+    </object>
+    <object pk="ccdd9b75c1e511e0bcab0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Office/Business :: Groupware</field>
+    </object>
+    <object pk="ccdda633c1e511e084250026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Office/Business :: News/Diary</field>
+    </object>
+    <object pk="ccddb1bac1e511e0a1130026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Office/Business :: Office Suites</field>
+    </object>
+    <object pk="ccddbcdcc1e511e081fc0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Office/Business :: Scheduling</field>
+    </object>
+    <object pk="ccddc7a6c1e511e0aa7d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Other/Nonlisted Topic</field>
+    </object>
+    <object pk="ccddd275c1e511e0b87a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Printing</field>
+    </object>
+    <object pk="ccdddd3dc1e511e0b2df0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Religion</field>
+    </object>
+    <object pk="ccdded9cc1e511e0a2ae0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering</field>
+    </object>
+    <object pk="ccddf8a8c1e511e0a0b40026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: Artificial Intelligence</field>
+    </object>
+    <object pk="ccde03dec1e511e08e510026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: Artificial Life</field>
+    </object>
+    <object pk="ccde0f33c1e511e0bac50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: Astronomy</field>
+    </object>
+    <object pk="ccde1a57c1e511e09f070026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: Atmospheric Science</field>
+    </object>
+    <object pk="ccde2559c1e511e085020026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: Bio-Informatics</field>
+    </object>
+    <object pk="ccde3054c1e511e0afaf0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: Chemistry</field>
+    </object>
+    <object pk="ccde3b1cc1e511e09cb90026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)</field>
+    </object>
+    <object pk="ccde45e3c1e511e0ba260026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: GIS</field>
+    </object>
+    <object pk="ccde5105c1e511e09f2e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: Human Machine Interfaces</field>
+    </object>
+    <object pk="ccde5c00c1e511e09b1f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: Image Recognition</field>
+    </object>
+    <object pk="ccde66c7c1e511e08cf70026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: Information Analysis</field>
+    </object>
+    <object pk="ccde7187c1e511e094260026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator</field>
+    </object>
+    <object pk="ccde7c4cc1e511e089350026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: Mathematics</field>
+    </object>
+    <object pk="ccde8717c1e511e0a1a50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: Medical Science Apps.</field>
+    </object>
+    <object pk="ccde91e8c1e511e086370026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: Physics</field>
+    </object>
+    <object pk="ccde9ce1c1e511e09f4e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Scientific/Engineering :: Visualization</field>
+    </object>
+    <object pk="ccdea7b3c1e511e09d710026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Security</field>
+    </object>
+    <object pk="ccdeb311c1e511e0a54f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Security :: Cryptography</field>
+    </object>
+    <object pk="ccdec1dec1e511e0ba900026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Sociology</field>
+    </object>
+    <object pk="ccdeccb0c1e511e098ed0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Sociology :: Genealogy</field>
+    </object>
+    <object pk="ccded785c1e511e0b5650026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Sociology :: History</field>
+    </object>
+    <object pk="ccdee238c1e511e0a9130026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development</field>
+    </object>
+    <object pk="ccdeeda8c1e511e094a80026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Assemblers</field>
+    </object>
+    <object pk="ccdef980c1e511e0a2380026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Bug Tracking</field>
+    </object>
+    <object pk="ccdf043dc1e511e099110026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Build Tools</field>
+    </object>
+    <object pk="ccdf0f57c1e511e094e00026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Code Generators</field>
+    </object>
+    <object pk="ccdf1abdc1e511e09be80026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Compilers</field>
+    </object>
+    <object pk="ccdf25aec1e511e08abe0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Debuggers</field>
+    </object>
+    <object pk="ccdf30cfc1e511e0b9760026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Disassemblers</field>
+    </object>
+    <object pk="ccdf3c0fc1e511e095fa0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Documentation</field>
+    </object>
+    <object pk="ccdf4700c1e511e09aab0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Embedded Systems</field>
+    </object>
+    <object pk="ccdf51e6c1e511e0a74a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Internationalization</field>
+    </object>
+    <object pk="ccdf5ce8c1e511e085100026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Interpreters</field>
+    </object>
+    <object pk="ccdf67c5c1e511e089f10026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Libraries</field>
+    </object>
+    <object pk="ccdf74f0c1e511e0aee10026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Libraries :: Application Frameworks</field>
+    </object>
+    <object pk="ccdf8019c1e511e0a0800026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Libraries :: Java Libraries</field>
+    </object>
+    <object pk="ccdf8e35c1e511e0ace80026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Libraries :: Perl Modules</field>
+    </object>
+    <object pk="ccdf9f8fc1e511e088ec0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Libraries :: PHP Classes</field>
+    </object>
+    <object pk="ccdfab78c1e511e0b8f70026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Libraries :: Pike Modules</field>
+    </object>
+    <object pk="ccdfb685c1e511e0abcd0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Libraries :: pygame</field>
+    </object>
+    <object pk="ccdfc1cfc1e511e0b0e50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Libraries :: Python Modules</field>
+    </object>
+    <object pk="ccdfcc97c1e511e0b7730026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Libraries :: Ruby Modules</field>
+    </object>
+    <object pk="ccdfd7b0c1e511e094840026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Libraries :: Tcl Extensions</field>
+    </object>
+    <object pk="ccdfe28cc1e511e094090026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Localization</field>
+    </object>
+    <object pk="ccdfeddec1e511e08a4c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Object Brokering</field>
+    </object>
+    <object pk="ccdff8f8c1e511e0b5630026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Object Brokering :: CORBA</field>
+    </object>
+    <object pk="cce003c7c1e511e0be240026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Pre-processors</field>
+    </object>
+    <object pk="cce00e91c1e511e0926e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Quality Assurance</field>
+    </object>
+    <object pk="cce019b3c1e511e0be6e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Testing</field>
+    </object>
+    <object pk="cce02557c1e511e094580026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Testing :: Traffic Generation</field>
+    </object>
+    <object pk="cce0301ec1e511e0a1500026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: User Interfaces</field>
+    </object>
+    <object pk="cce03b2ec1e511e081190026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Version Control</field>
+    </object>
+    <object pk="cce045f5c1e511e09d0c0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Version Control :: CVS</field>
+    </object>
+    <object pk="cce050bdc1e511e0a7450026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Version Control :: RCS</field>
+    </object>
+    <object pk="cce05b7dc1e511e09eb80026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Version Control :: SCCS</field>
+    </object>
+    <object pk="cce06642c1e511e09f480026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Software Development :: Widget Sets</field>
+    </object>
+    <object pk="cce0710cc1e511e0bb500026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System</field>
+    </object>
+    <object pk="cce07bd4c1e511e0ae270026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Archiving</field>
+    </object>
+    <object pk="cce086c5c1e511e096ff0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Archiving :: Backup</field>
+    </object>
+    <object pk="cce091dcc1e511e09b580026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Archiving :: Compression</field>
+    </object>
+    <object pk="cce09cb8c1e511e098aa0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Archiving :: Mirroring</field>
+    </object>
+    <object pk="cce0a78ac1e511e0b9280026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Archiving :: Packaging</field>
+    </object>
+    <object pk="cce0b251c1e511e09c8f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Benchmark</field>
+    </object>
+    <object pk="cce0bd54c1e511e09a080026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Boot</field>
+    </object>
+    <object pk="cce0c86ec1e511e08e280026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Boot :: Init</field>
+    </object>
+    <object pk="cce0d32bc1e511e09cad0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Clustering</field>
+    </object>
+    <object pk="cce0ddf5c1e511e0abf90026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Console Fonts</field>
+    </object>
+    <object pk="cce0e8b0c1e511e0b3830026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Distributed Computing</field>
+    </object>
+    <object pk="cce0f3c0c1e511e0b8e70026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Emulators</field>
+    </object>
+    <object pk="cce0fea6c1e511e08b600026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Filesystems</field>
+    </object>
+    <object pk="cce1096ec1e511e099e30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Hardware</field>
+    </object>
+    <object pk="cce11485c1e511e080410026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Hardware :: Hardware Drivers</field>
+    </object>
+    <object pk="cce11ff8c1e511e09ef10026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Hardware :: Mainframes</field>
+    </object>
+    <object pk="cce12ac0c1e511e09c0e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Hardware :: Symmetric Multi-processing</field>
+    </object>
+    <object pk="cce1357dc1e511e09a870026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Installation/Setup</field>
+    </object>
+    <object pk="cce1403dc1e511e0b6220026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Logging</field>
+    </object>
+    <object pk="cce14b0cc1e511e090eb0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Monitoring</field>
+    </object>
+    <object pk="cce155d7c1e511e088b50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Networking</field>
+    </object>
+    <object pk="cce16091c1e511e088360026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Networking :: Firewalls</field>
+    </object>
+    <object pk="cce16b97c1e511e0bb670026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Networking :: Monitoring</field>
+    </object>
+    <object pk="cce1771ec1e511e0a8ee0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Networking :: Monitoring :: Hardware Watchdog</field>
+    </object>
+    <object pk="cce181eec1e511e085a50026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Networking :: Time Synchronization</field>
+    </object>
+    <object pk="cce18cc2c1e511e0af250026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Operating System</field>
+    </object>
+    <object pk="cce1978ac1e511e0ba190026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Operating System Kernels</field>
+    </object>
+    <object pk="cce1a25cc1e511e0ba2b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Operating System Kernels :: BSD</field>
+    </object>
+    <object pk="cce1ad19c1e511e0afb60026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Operating System Kernels :: GNU Hurd</field>
+    </object>
+    <object pk="cce1b89ec1e511e0b47d0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Operating System Kernels :: Linux</field>
+    </object>
+    <object pk="cce1c3ccc1e511e0a7610026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Power (UPS)</field>
+    </object>
+    <object pk="cce1ce8ac1e511e0a8a30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Recovery Tools</field>
+    </object>
+    <object pk="cce1d951c1e511e0bb260026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Shells</field>
+    </object>
+    <object pk="cce1e44cc1e511e0a3c80026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Software Distribution</field>
+    </object>
+    <object pk="cce1ef63c1e511e0bd260026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Systems Administration</field>
+    </object>
+    <object pk="cce1fa2bc1e511e0a1f40026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Systems Administration :: Authentication/Directory</field>
+    </object>
+    <object pk="cce204f3c1e511e0b46b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Systems Administration :: Authentication/Directory :: LDAP</field>
+    </object>
+    <object pk="cce21066c1e511e095760026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: Systems Administration :: Authentication/Directory :: NIS</field>
+    </object>
+    <object pk="cce21b9cc1e511e093fc0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: System :: System Shells</field>
+    </object>
+    <object pk="cce2264fc1e511e08e560026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Terminals</field>
+    </object>
+    <object pk="cce23102c1e511e0916b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Terminals :: Serial</field>
+    </object>
+    <object pk="cce23bc2c1e511e08d9b0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Terminals :: Telnet</field>
+    </object>
+    <object pk="cce24675c1e511e0808a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Terminals :: Terminal Emulators/X Terminals</field>
+    </object>
+    <object pk="cce25133c1e511e0bed70026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Editors</field>
+    </object>
+    <object pk="cce25c1cc1e511e09bfb0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Editors :: Documentation</field>
+    </object>
+    <object pk="cce266d7c1e511e0bd300026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Editors :: Emacs</field>
+    </object>
+    <object pk="cce2718ac1e511e09c890026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Editors :: Integrated Development Environments (IDE)</field>
+    </object>
+    <object pk="cce27c54c1e511e0bf170026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Editors :: Text Processing</field>
+    </object>
+    <object pk="cce28726c1e511e09e1a0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Editors :: Word Processors</field>
+    </object>
+    <object pk="cce291d9c1e511e095f80026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Processing</field>
+    </object>
+    <object pk="cce29cc0c1e511e0b35e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Processing :: Filters</field>
+    </object>
+    <object pk="cce2a787c1e511e0b6480026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Processing :: Fonts</field>
+    </object>
+    <object pk="cce2b2fac1e511e08b7e0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Processing :: General</field>
+    </object>
+    <object pk="cce2bdc2c1e511e0bf820026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Processing :: Indexing</field>
+    </object>
+    <object pk="cce2c8d9c1e511e088e30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Processing :: Linguistic</field>
+    </object>
+    <object pk="cce2d38fc1e511e0aff30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Processing :: Markup</field>
+    </object>
+    <object pk="cce2de4cc1e511e0a9480026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Processing :: Markup :: HTML</field>
+    </object>
+    <object pk="cce2e9b3c1e511e08b600026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Processing :: Markup :: LaTeX</field>
+    </object>
+    <object pk="cce2f47dc1e511e098280026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Processing :: Markup :: SGML</field>
+    </object>
+    <object pk="cce2ff63c1e511e0885f0026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Processing :: Markup :: VRML</field>
+    </object>
+    <object pk="cce30a70c1e511e082e10026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Text Processing :: Markup :: XML</field>
+    </object>
+    <object pk="cce31587c1e511e0bbf20026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Topic :: Utilities</field>
+    </object>
+    <object pk="cce32078c1e511e0aae00026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">Framework :: Gamepresso</field>
+    </object>
+    <object pk="cce32b40c1e511e095c30026b0d9d1e4" model="package.classifier">
+        <field type="CharField" name="name">UNKNOWN</field>
+    </object>
+</django-objects>

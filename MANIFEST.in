@@ -1,0 +1,6 @@
+prune src/pypi
+
+recursive-include src/gppi/package/templates/ *
+recursive-include src/gppi/package/tests/ *
+recursive-include src/gppi/package/fixtures/ *
+recursive-include tests/ *
