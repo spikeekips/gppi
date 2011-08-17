@@ -12,7 +12,6 @@ from django.contrib.auth import authenticate, login
 from django.core.urlresolvers import reverse
 
 
-settings.ADMINS = (("sp", "dirdir@dir.com"), )
 ADMIN_EMAIL = ["<a href=\"mailto:%(e)s\">%(e)s</a>" % dict(e=i[1], ) for i in settings.ADMINS]
 
 HTML_AUTHORIZATION_REQUIRED = _("""
