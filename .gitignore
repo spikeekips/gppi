@@ -1,2 +1,5 @@
+build/
+dist/
 src/pypi
+src/*.egg-info/
 .*.sw*
