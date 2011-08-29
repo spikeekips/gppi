@@ -2,6 +2,7 @@
 
 from django.conf.urls.defaults import patterns, url, include
 from django.http import HttpResponseNotAllowed
+from django.utils.functional import update_wrapper
 
 
 CONDITIONAL_VIEWS = dict()
@@ -23,6 +24,7 @@ def decorator_conditional_view (func, key, ) :
 
         return _func(request, *a, **kw)
 
+    update_wrapper(wrapper, func, assigned=tuple(), )
     return wrapper
 
 

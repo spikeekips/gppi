@@ -11,6 +11,8 @@ from django.utils.translation import gettext_lazy as _
 from django.contrib.auth import authenticate, login
 from django.core.urlresolvers import reverse
 
+from distutils.config import PyPIRCCommand
+
 
 ADMIN_EMAIL = ["<a href=\"mailto:%(e)s\">%(e)s</a>" % dict(e=i[1], ) for i in settings.ADMINS]
 
@@ -25,7 +27,7 @@ HTML_AUTHORIZATION_REQUIRED = _("""
 
 def basic_challenge (realm=None, ) :
     if realm is None:
-        realm = getattr(settings, "WWW_AUTHENTICATION_REALM", _("Restricted Access"))
+        realm = getattr(settings, "WWW_AUTHENTICATION_REALM", PyPIRCCommand.DEFAULT_REALM, )
 
     response = HttpResponse(HTML_AUTHORIZATION_REQUIRED, mimetype="text/html", )
     response["WWW-Authenticate"] = "Basic realm='%s'" % (realm)

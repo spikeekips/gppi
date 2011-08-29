@@ -5,13 +5,13 @@ import base64
 import StringIO
 import cgi
 
-from django.conf import settings
-from django.contrib.auth.decorators import user_passes_test
 from django.db import models
 from django.views.generic.base import View
 from django.views.generic.detail import DetailView
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.utils.decorators import method_decorator
+from django.views.decorators.csrf import csrf_exempt
 
 from gppi._exceptions import BadRequest, Forbidden, Unauthorized
 from gppi.www_basic_auth import decorator_login_required
@@ -75,6 +75,7 @@ class PYPI (BaseView, ) :
 
         return d
 
+    @method_decorator(csrf_exempt, )
     def dispatch (self, request, *a, **kw) :
         try :
             request._form = self.decode_form(

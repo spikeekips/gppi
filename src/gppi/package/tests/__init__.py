@@ -99,19 +99,19 @@ if invalid credential, it occurs error.
 
 >>> register_package(
 ...        _metadata, create_credential_header(**user_credentials), ) # doctest:+ELLIPSIS
-Using PyPI login from /var/folders/.../.pypirc
+Using PyPI login from .../.pypirc
 Server response (200): OK
 
 
 If you try to register with the other user,
 >>> register_package(_metadata, create_credential_header(
 ...    **user_credentials_other), ) # doctest:+ELLIPSIS
-Using PyPI login from /var/folders/.../.pypirc
+Using PyPI login from .../.pypirc
 Server response (403): OK
 
 >>> register_package(_metadata, create_credential_header(
 ...    **dict(username="incorrect", password="incorrect", )), ) # doctest:+ELLIPSIS
-Using PyPI login from /var/folders/.../.pypirc
+Using PyPI login from .../.pypirc
 Server response (401): OK
 
 
@@ -213,7 +213,7 @@ so, `register` first, ::
 
 >>> register_package(
 ...        _metadata, create_credential_header(**user_credentials), ) # doctest:+ELLIPSIS
-Using PyPI login from /var/folders/.../.pypirc
+Using PyPI login from .../.pypirc
 Server response (200): OK
 
 
@@ -283,7 +283,7 @@ register and upload package.
 
 >>> register_package(
 ...        _metadata, create_credential_header(**user_credentials), ) # doctest:+ELLIPSIS
-Using PyPI login from /var/folders/.../.pypirc
+Using PyPI login from .../.pypirc
 Server response (200): OK
 
 >>> _files_version = [i for i in TEST_PACKAGES.keys() if i.find("dev") != -1]
@@ -336,7 +336,7 @@ common                    -
 
 >>> register_package(
 ...        _metadata, create_credential_header(**user_credentials), ) # doctest:+ELLIPSIS
-Using PyPI login from /var/folders/.../.pypirc
+Using PyPI login from .../.pypirc
 Server response (200): OK
 
 if dev and official release,

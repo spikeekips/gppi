@@ -59,14 +59,26 @@ class XMLRPCHandler (SimpleXMLRPCDispatcher, ) :
 
     def _search (self, spec, op, request, ) :
         def _as_dict (release, pool, ) :
-            pool.append(
-                dict(
+            _d = dict(
+                name=None,
+                version=None,
+                summary=None,
+                _pypi_ordering=len(pool),
+            )
+
+            if isinstance(release, models_package.Package, ) :
+                _d.update(dict(
+                    name=release.name,
+                    summary=release.summary,
+                ), )
+            else :
+                _d.update(dict(
                     name=release.package.name,
                     version=release.version,
                     summary=release.summary,
-                    _pypi_ordering=len(pool),
-                ),
-            )
+                ), )
+
+            pool.append(_d, )
 
         op = op.lower() if op.lower() in ("and", "or", ) else "or"
 
@@ -77,6 +89,8 @@ class XMLRPCHandler (SimpleXMLRPCDispatcher, ) :
             except FieldDoesNotExist :
                 continue
 
+            if type(v) not in (list, tuple, ) :
+                v = (v, )
             for j in v :
                 _q = (_q.__and__ if op == "and" else _q.__or__)(
                         Q(**{"%s__icontains" % k: j.lower(), }), )
@@ -92,6 +106,9 @@ class XMLRPCHandler (SimpleXMLRPCDispatcher, ) :
         _pool = list()
         for (_name, _package, ) in _s :
             _qs = _package.release_set.get_latest_version(version_tags=request.version_tags, )
+            if not _qs :
+                _qs = [_package, ]
+
             map(lambda x : _as_dict(x, _pool, ), _qs, )
 
         return _pool
