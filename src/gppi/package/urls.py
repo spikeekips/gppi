@@ -1,20 +1,13 @@
 # -*- coding: utf-8 -*-
 
 import re
+from django.conf import settings
 from django.conf.urls.defaults import patterns, url
 
 from gppi.package import views as view_package
 from gppi.urls import conditional_url
 from gppi.package.utils import VERSION_TAGS
 
-import os
-import gppi.package
-
-
-MEDIA_ROOT = os.path.join(
-        os.path.dirname(gppi.package.__file__),
-        "media",
-    )
 
 RE_PACKAGE_NAME = "[A-Za-z0-9.\-]+"
 RE_VERSION_TAGS = "".join(map(re.escape, VERSION_TAGS, ), )
@@ -22,7 +15,7 @@ RE_VERSION_TAGS = "".join(map(re.escape, VERSION_TAGS, ), )
 
 urlpatterns = patterns("",
     url(r"^media/(?P<path>.*)$", "django.views.static.serve",
-        kwargs=dict(document_root=MEDIA_ROOT, ), ),
+        kwargs=dict(document_root=settings.MEDIA_ROOT, ), ),
     url(r"^media/", "django.views.static.serve",
         name="gppi-media", ),
 

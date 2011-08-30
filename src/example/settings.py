@@ -20,12 +20,12 @@ DATABASES = {
     }
 }
 
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'Asia/Seoul'
 LANGUAGE_CODE = 'en-us'
 SITE_ID = 1
 USE_I18N = True
 USE_L10N = True
-MEDIA_ROOT = ''
+MEDIA_ROOT = '/tmp/'
 MEDIA_URL = ''
 STATIC_ROOT = ''
 STATIC_URL = '/static/'
@@ -46,6 +46,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'gppi.www_basic_auth.BasicAuthenticationMiddleware',
 )
 ROOT_URLCONF = 'example.urls'
 TEMPLATE_DIRS = ()
@@ -57,6 +58,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'gppi.package',
+    'test',
 )
 LOGGING = {
     'version': 1,
