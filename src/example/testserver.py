@@ -171,7 +171,7 @@ class Options (ServerOptions, ) :
         ["root", None, "./", "application root path", ],
         ["port", None, "8080", "listen port", ],
         ["django-settings", None, "settings", "django settings module name", ],
-        ["interface", "*", None, "listen interface, usually IP address", ],
+        ["interface", None, None, "listen interface, usually IP address", ],
         ["pool_size", None, "500", "server thread pool size", ],
         ["logfile", None, "/tmp/twisted.log", "log to a specified file, - for stdout", ],
         ["pidfile", None, "/tmp/twisted.pid", "Name of the pidfile [default: twistd.pid]", ],
